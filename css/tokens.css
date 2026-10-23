@@ -15,6 +15,7 @@
   --color-sky: oklch(82% 0.065 252);
   --color-sky-2: oklch(93% 0.03 245);
   --color-sky-3: oklch(96.5% 0.015 245);
+  --color-hero-sky: oklch(92% 0.033 223.4);  /* 冒頭の動画の空の色（#ceeaf5）。スマホで動画の上に置く帯をつなげる */
   --color-gray: oklch(91% 0.01 265);
   --color-gray-2: oklch(80% 0.018 265);
   --color-muted: oklch(45% 0.035 268);
