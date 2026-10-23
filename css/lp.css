@@ -552,7 +552,6 @@ mark { background: none; color: inherit; }
 .foot__dl > div { display: grid; grid-template-columns: 5.5em minmax(0, 1fr); gap: var(--space-sm); padding-bottom: 0.3rem; border-bottom: 1px solid var(--color-night); }
 .foot__dl dt { font-weight: 700; color: var(--color-on-dark); }
 .foot__dl dd { margin: 0; }
-.foot__l { display: block; }
 .foot__links { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-lg); margin-top: var(--space-sm); }
 .foot__links a { white-space: nowrap; }
 @media (min-width: 60rem) { .foot { padding-bottom: var(--space-2xl); } }
