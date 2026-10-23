@@ -458,10 +458,10 @@ mark { background: none; color: inherit; }
 .flow3__n { flex: none; padding: 0.05em 0.6em; border-radius: var(--radius-sm); background: var(--color-accent); color: var(--color-ink); font-family: var(--font-display); font-weight: 900; white-space: nowrap; }
 .flow3__t { font-weight: 700; line-height: 1.5; }
 
-/* ---------- 7.5 事例（3枚の行の高さをそろえる。中身は実例が届くまで灰色の棒） ---------- */
+/* ---------- 7.5 事例（3枚の行の高さをそろえる） ---------- */
 .cases__list { display: grid; gap: var(--space-lg); max-width: 30rem; margin: 0 auto; }
 @media (min-width: 60rem) { .cases__list { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-md); max-width: none; } }
-.case { display: grid; grid-template-rows: subgrid; grid-row: span 9; row-gap: 0; overflow: hidden; border: var(--border) solid var(--color-ink); border-radius: var(--radius-lg); background: var(--color-paper); }
+.case { display: grid; grid-template-rows: subgrid; grid-row: span 8; row-gap: 0; overflow: hidden; border: var(--border) solid var(--color-ink); border-radius: var(--radius-lg); background: var(--color-paper); }
 .case__where { justify-self: center; margin-top: var(--space-md); }
 .case__who { display: grid; grid-template-columns: 4.5rem minmax(0, 1fr); align-items: center; gap: var(--space-sm); margin: var(--space-sm) var(--space-md) 0; padding-bottom: var(--space-sm); border-bottom: 2px solid var(--color-ink); }
 .case__face { width: 4.5rem; height: 4.5rem; border: var(--border) solid var(--color-ink); border-radius: 50%; }
@@ -472,12 +472,9 @@ mark { background: none; color: inherit; }
 .case__rows dt { display: flex; align-items: center; gap: 0.45em; padding: 0.8em var(--space-md) 0.2em; font-size: var(--text-xs); font-weight: 700; color: var(--color-muted); }
 .case__rows dt::before { content: ""; width: 0.55em; height: 0.55em; border-radius: 50%; background: var(--color-accent-deep); }
 .case__rows dd { margin: 0; padding: 0.15em var(--space-md) 0.8em; border-bottom: 1px dashed var(--color-gray-2); line-height: 1.7; }
+.case__rows dd:last-child { padding-bottom: var(--space-md); border-bottom: 0; }
 .case__rows dd b { background: linear-gradient(transparent 62%, var(--color-accent-2) 62%); font-size: 1.12em; }
 .cases__note { margin-top: var(--space-sm); font-size: var(--text-xs); color: var(--color-muted); text-align: center; }
-.case__ph { display: block; height: 0.75em; margin-top: 0.45rem; border-radius: 0.375em; background: var(--color-gray); }
-.case__ph:first-child { margin-top: 0.3rem; }
-.case__ph--s { width: 62%; }
-.case__src { padding: var(--space-sm) var(--space-md) var(--space-md); text-align: center; }
 @media (min-width: 60rem) {
   .flow3 { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0.4rem; }
   .flow3 li { padding: 0.8em 1.6em 0.8em 1.8em; border-radius: 0; clip-path: polygon(0 0, calc(100% - 1rem) 0, 100% 50%, calc(100% - 1rem) 100%, 0 100%, 1rem 50%); }

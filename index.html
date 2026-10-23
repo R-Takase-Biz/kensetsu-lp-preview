@@ -11,8 +11,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Zen+Kaku+Gothic+New:wght@700;900&display=swap">
-<link rel="stylesheet" href="css/tokens.css?v=9">
-<link rel="stylesheet" href="css/lp.css?v=9">
+<link rel="stylesheet" href="css/tokens.css?v=10">
+<link rel="stylesheet" href="css/lp.css?v=10">
 <!-- 計測：GA4の測定IDが決まったらここに入れる。ボタンは data-cta、区画は data-sec の値でイベントを分ける（js/lp.js） -->
 </head>
 <body>
@@ -408,7 +408,8 @@
   </div>
 </section>
 
-<!-- 7.5 事例：入口・出口・社内の3か所で1つずつ。社名は出さない。中身は実例が届くまで空けておく（作らない） -->
+<!-- 7.5 事例：入口・出口・社内の3か所で1つずつ。社名は出さない。入口と出口は連携先から届いた実例（2026-10-23）、社内は実例を少し変えたもの -->
+<!-- 数字は届いた実例のまま。社内の「月400枚」「30時間」は現場20か所×月22日×1枚5分の試算を丸めたもの（ユーザー了承） -->
 <section class="sec sec--cream cases" data-sec="cases" aria-labelledby="cases-title">
   <div class="wrap">
     <h2 id="cases-title" class="ttl" data-rv><span class="ph">入口・出口・社内</span><span class="ph">それぞれの<span class="hlbox">事例</span></span></h2>
@@ -418,41 +419,38 @@
       <article class="case case--in" data-rv style="--d:0s">
         <p class="case__where"><b>入口</b>採る</p>
         <div class="case__who">
-          <img class="case__face" src="img/il/case_face_in.svg" width="120" height="120" alt="" loading="lazy">
-          <p class="case__co"><span class="case__ph"></span><span class="case__ph case__ph--s"></span></p>
+          <img class="case__face" src="img/il/case_face_in.svg?v=2" width="120" height="120" alt="" loading="lazy">
+          <p class="case__co"><span class="case__ind">廃棄物収集の会社</span><span class="case__size">社員 80名</span></p>
         </div>
         <dl class="case__rows">
-          <dt>困っていたこと</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
-          <dt>打った手</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
-          <dt>変わったこと</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
+          <dt>困っていたこと</dt><dd>男性中心の職場で人が足りない。女性社員は全体の約1割だった</dd>
+          <dt>打った手</dt><dd>採る相手を子育て中の女性に絞り 社内保育園とAT車を用意した</dd>
+          <dt>変わったこと</dt><dd>女性社員が<b class="ph">10人から32人に</b>。<span class="ph">3年で3倍を超えた</span></dd>
         </dl>
-        <p class="case__src"><mark class="tbc">実例が入ります</mark></p>
       </article>
       <article class="case case--out" data-rv style="--d:.1s">
         <p class="case__where"><b>出口</b>辞める</p>
         <div class="case__who">
-          <img class="case__face" src="img/il/case_face_out.svg" width="120" height="120" alt="" loading="lazy">
-          <p class="case__co"><span class="case__ph"></span><span class="case__ph case__ph--s"></span></p>
+          <img class="case__face" src="img/il/case_face_out.svg?v=2" width="120" height="120" alt="" loading="lazy">
+          <p class="case__co"><span class="case__ind">林業の会社</span><span class="case__size">社員 12名</span></p>
         </div>
         <dl class="case__rows">
-          <dt>困っていたこと</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
-          <dt>打った手</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
-          <dt>変わったこと</dt><dd><span class="case__ph"></span><span class="case__ph case__ph--s"></span></dd>
+          <dt>困っていたこと</dt><dd>腰痛による欠勤が年21日。<span class="ph">体の不調で</span>辞める人が何度も出ていた</dd>
+          <dt>打った手</dt><dd>医療の専門家が現場の環境と<span class="ph">社員の体を調べ</span> 腰痛を防ぐ仕組みを会社につくった</dd>
+          <dt>変わったこと</dt><dd>腰痛による欠勤が<b class="ph">年21日から0日に</b>。<span class="ph">体の不調で</span>辞める人が減り <span class="ph">売上も前年の1.2倍に</span>なった</dd>
         </dl>
-        <p class="case__src"><mark class="tbc">実例が入ります</mark></p>
       </article>
       <article class="case case--mid" data-rv style="--d:.2s">
         <p class="case__where"><b>社内</b>回す</p>
         <div class="case__who">
-          <img class="case__face" src="img/il/case_face_mid.svg" width="120" height="120" alt="" loading="lazy">
-          <p class="case__co"><span class="case__ind">土木工事の会社</span><span class="case__size">現場 約20か所</span></p>
+          <img class="case__face" src="img/il/case_face_mid.svg?v=2" width="120" height="120" alt="" loading="lazy">
+          <p class="case__co"><span class="case__ind">土木工事の会社</span><span class="case__size">現場 約20か所・監督 15人</span></p>
         </div>
         <dl class="case__rows">
-          <dt>困っていたこと</dt><dd>監督が手書きした日報を 月末に事務所で出面表へ書き写していた。読み間違いの直しも多かった</dd>
-          <dt>打った手</dt><dd>日報をスマホで書ける仕組みにした。電波の届かない現場でも書けて 日報と出面表は自動でできあがる</dd>
-          <dt>変わったこと</dt><dd>書き写しの作業がなくなり 事務の手間が<b>月およそ30時間</b>減った</dd>
+          <dt>困っていたこと</dt><dd>監督の手書きの日報を 月末に事務所で出面表へ書き写していた。<span class="ph">月400枚を超え</span> <span class="ph">読み間違いの直しも多かった</span></dd>
+          <dt>打った手</dt><dd>日報をスマホで書ける仕組みにした。電波の届かない現場でも書けて 出面表は自動でできあがる</dd>
+          <dt>変わったこと</dt><dd>書き写しの作業が<b class="ph">月およそ30時間から0に</b>。読み間違いの直しもなくなった</dd>
         </dl>
-        <p class="case__src"></p>
       </article>
     </div>
     <p class="cases__note">※お客様の事情に配慮し 内容を一部変えています</p>
@@ -575,6 +573,6 @@
   <a class="dock__tel" href="tel:0118879819" data-cta="sticky-tel">電話</a>
 </aside>
 
-<script src="js/lp.js?v=9" defer></script>
+<script src="js/lp.js?v=10" defer></script>
 </body>
 </html>
