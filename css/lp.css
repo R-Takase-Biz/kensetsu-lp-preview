@@ -548,6 +548,11 @@ mark { background: none; color: inherit; }
 .foot__wrap { display: grid; gap: var(--space-xs); }
 .foot__name { font-family: var(--font-display); font-weight: 900; font-size: var(--text-lg); color: var(--color-on-dark); }
 .foot__addr { font-style: normal; }
+.foot__dl { display: grid; gap: 0.3rem; margin: 0; }
+.foot__dl > div { display: grid; grid-template-columns: 5.5em minmax(0, 1fr); gap: var(--space-sm); padding-bottom: 0.3rem; border-bottom: 1px solid var(--color-night); }
+.foot__dl dt { font-weight: 700; color: var(--color-on-dark); }
+.foot__dl dd { margin: 0; }
+.foot__l { display: block; }
 .foot__links { display: flex; flex-wrap: wrap; gap: var(--space-xs) var(--space-lg); margin-top: var(--space-sm); }
 .foot__links a { white-space: nowrap; }
 @media (min-width: 60rem) { .foot { padding-bottom: var(--space-2xl); } }
