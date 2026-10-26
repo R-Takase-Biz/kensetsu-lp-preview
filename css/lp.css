@@ -405,7 +405,7 @@ mark { background: none; color: inherit; }
 
 .shot { display: flex; flex-direction: column; align-items: center; margin: 0; }
 .shot .band { align-self: stretch; }
-.shot__frame { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.6rem; width: min(100%, 15rem); aspect-ratio: 9 / 16; padding: 1rem; border: 3px dashed var(--color-gray-2); border-radius: 1.5rem; background: var(--color-sky-3); color: var(--color-muted); font-weight: 700; text-align: center; }
+.shot__img { display: block; width: min(100%, 20rem); height: auto; border: var(--border) solid var(--color-ink); border-radius: var(--radius-lg); }
 .shot__cap { margin-top: var(--space-sm); font-size: var(--text-sm); font-weight: 700; text-align: center; }
 
 .gifts { margin-top: var(--space-2xl); }
